@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>DOTA HELPER // dota.help</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link href='https://fonts.googleapis.com/css?family=Alegreya+Sans+SC' rel='stylesheet' type='text/css'>
+</head>
+<body>
+
+  <!-- PRELOADER   -->
+
+  <div class="preloader">
+    <svg class="preloader__image" role="img">
+    </svg>
+  </div>
+
+  <!-- VIDEO BACKGROUND -->
+
+  <video autoplay muted loop id="myVideo">
+    <source src="https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/homepage/dota_montage_webm.webm" type="video/webm">
+  </video>
+
+  <!-- SCROLL ON TOP -->
+
+  <button onclick="topFunction()" id="myBtn" title="Go to top">↑</button>
+
+  <!-- MAIN -->
+
+<div class="container-fluid banner-fluid content">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+           <!-- MENU -->
+
+  <nav class="navbar navbar-expand-lg navbar-light menu bold">
+        <button class="navbar-toggler" type="button" data-toggle="collapse"
+        data-target="#navbarNav" aria-controls="navbarNav"
+        aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href="#how" class="nav-link" style="color: white;">Как это работает</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#why" class="nav-link" style="color: white;">Почему мы</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#reviews" class="nav-link" style="color: white;">Почему мы</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link" style="color: white;">Авторизация</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <h1 class="bold">DOTA HELPER —</h1>
+          <h2>Лучший твой помощник по игре</h3>
+          <p>Добавляет ассистента в игру, который будет вам говорить что лучше делать, покупать и т.п. Так же он добавляет скины в ваш инвентарь. Скачай и попробуй, ведь новым игрокам мы даем бесплатный тест!</p>
+          <div class="d-flex align-items-center">
+            <a href="#download">
+              <button class="download">Попробовать бесплатно!</button>
+            </a>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <img src="img/terrorblade.png" class="img-fluid"> 
+        </div>
+    </div>
+  </div>
+</div>
+
+  <!-- COMMUNITY -->
+
+<div class="container">
+  <div class="row community" id="community">
+    <div class="col-md-12">
+      <h1 class="bold" style="color: white">Присооденяйся к нашему коммьюнити!</h1>
+    </div>
+    <div class="col-md-4 users">
+      <h2 class="numbers">100k</h2>
+      <p>пользователей</p>
+    </div>
+    <div class="col-md-4 matches">
+      <h2 class="numbers">250k</h2>
+      <p>матчей</p>
+    </div>
+    <div class="col-md-4 wins">
+      <h2 class="numbers">170k</h2>
+      <p>побед</p>
+    </div>
+  </div>
+
+  <!-- HOW IT WORKS -->
+
+  <div class="row">
+    <h1 class="bold d-flex" id="how" style="color: white">Как это работает?</h1>
+    <div class="col-md-4">
+      <p><span class="bold" style="font-size: 25px">ЧТО ПОКУПАТЬ:</span> Ассистент вам будет говорить, что лучше покупать на начальных стадиях. Справа сверху будет писаться про айтемы <span style="font-style: italic">(когда их лучше покуптаь и т.п.)</span></p>
+    </div>
+    <div class="col-md-4">
+      <p><span class="bold" style="font-size: 25px">КАКИЕ СКИЛЛЫ КАЧАТЬ:</span> Ассистент вам будет подсказывать, какие скиллы нужно качать в игре. Так же справа будет писаться, как лучше прожимать скиллы и с какими айтемами.</p>
+    </div>
+    <div class="col-md-4">
+      <p><span class="bold" style="font-size: 25px">OVERWOLF:</span> В начале драфта появится менюшка, в которой будут показывать последние игры игроков и героев, которых стоит забанить. Так же <span class="bold">OVERWOLF</span> будет подсказывать, каких героев лучше брать.</p>
+    </div>
+    <div class="overwolf">
+      <img src="img/overwolf2.jpg" alt="Меню OVERWOLF" width="100%">
+      <p style="color: white; font-size: 10px;">Меню OVERWOLF</p>
+    </div>
+  </div>
+
+  <!-- WHY WE -->
+
+  <div class="row">
+    <h1 class="bold" id="why" style="color: white">Почему мы?</h1>
+    <div class="col-lg-4">
+      <div class="whywe" style="background-image: url('img/1.png')">
+        <h2>Оптимизация</h2>
+        <p>Наш ассистент не лагает, а наоборот, даже повышает производительность игры, по-этому с нашим ассистентом вы сможете отлично играть без лагов.</p>
+      </div>
+    </div>
+    <div class="col-lg-4">
+      <div class="whywe" style="background-image: url('img/2.png')">
+        <h2>Безопасность</h2>
+        <p>В нашей программе нету никаких вирусов и ваши данные будут в полной безопасности.</p>
+      </div>
+    </div>
+    <div class="col-lg-4">
+      <div class="whywe" style="background-image: url('img/3.png')">
+        <h2>Андетект</h2>
+        <p>Нашу программу ниразу не банил VALVE, ибо в ней нету ничего такого, за что могло бы забанить нас. Так что можете спокойно использовать и не бояться за бан.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- DOWNLOAD -->
+
+  <div class="row">
+    <h1 class="bold" id="reviews" style="color: white">Отзывы</h1>
+    
+  </div>
+
+
+</div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+    <script src="package.js"></script>
+</body>
+</html>
