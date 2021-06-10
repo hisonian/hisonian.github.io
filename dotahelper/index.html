@@ -8,6 +8,7 @@
   <link rel="stylesheet" type="text/css" href="style.css">
   <link href='https://fonts.googleapis.com/css?family=Alegreya+Sans+SC' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://kit.fontawesome.com/24e14e3299.js" crossorigin="anonymous"></script>
   <link rel="shortcut icon" href="img/morph.png" type="image/x-con">
 </head>
 <body>
@@ -46,16 +47,10 @@
         <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a href="#how" class="nav-link" style="color: white;">Как это работает</a>
+                    <a href="register.html" class="nav-link regButton" style="color: white;">Регистрация</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#why" class="nav-link" style="color: white;">Почему мы</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#reviews" class="nav-link" style="color: white;">Отзывы</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#" class="nav-link regButton" style="color: white;">Авторизация</a>
+                    <a href="login.html" class="nav-link regButton" style="color: white;">Авторизация</a>
                 </li>
             </ul>
         </div>
@@ -75,16 +70,14 @@
               <button class="button">Попробовать бесплатно!</button>
             </a>
           </div>
-          <br>
-          <br>
-          <br>
-          <br>
-          <br>
-          <br>
         </div>
         <div class="col-lg-6">
           <img src="img/terrorblade.png" class="img-fluid"> 
         </div>
+        <br>
+        <br>
+        <br>
+        <br>
     </div>
   </div>
 </div>
@@ -136,30 +129,30 @@
     <div class="col-lg-4">
       <div class="whywe" style="background-image: url('img/1.png')">
         <h2 class="bold" style="color: red;">Оптимизация</h2>
-        <p>Наш ассистент не лагает, а наоборот, даже повышает производительность игры, по-этому с нашим ассистентом вы сможете отлично играть без лагов.</p>
+        <p style="color: white">Наш ассистент не лагает, а наоборот, даже повышает производительность игры, по-этому с нашим ассистентом вы сможете отлично играть без лагов.</p>
       </div>
     </div>
     <div class="col-lg-4">
       <div class="whywe" style="background-image: url('img/2.png')">
         <h2 class="bold" style="color: red;">Безопасность</h2>
-        <p>В нашей программе нету никаких вирусов и ваши данные будут в полной безопасности.</p>
+        <p style="color: white">В нашей программе нету никаких вирусов и ваши данные будут в полной безопасности.</p>
       </div>
     </div>
     <div class="col-lg-4">
       <div class="whywe" style="background-image: url('img/3.png')">
         <h2 class="bold" style="color: red;">Андетект</h2>
-        <p>Нашу программу ниразу не банил VALVE, ибо в ней нету ничего такого, за что могло бы забанить нас. Так что можете спокойно использовать и не бояться за бан.</p>
+        <p style="color: white">Нашу программу ниразу не банил VALVE, ибо в ней нету ничего такого, за что могло бы забанить нас. Так что можете спокойно использовать и не бояться за бан.</p>
       </div>
     </div>
   </div>
 
   <!-- REVIEWS -->
 
-  <div class="row">
+  <div class="row reviews">
     <h1 class="bold" id="reviews" style="color: white">Отзывы</h1>
     <div class="col-lg-4">
       <div class="card">
-        <img class="card-img-top" src="img/zxcursed.png">
+        <img class="card-img" src="img/zxcursed.png"> 
         <div class="card-body">
           <h4 class="card-title" style="color: white;">zxcursed</h4>
           <p class="card-text">лучший помощник по доте, рекомендую</p>
@@ -171,7 +164,7 @@
     </div>
     <div class="col-lg-4">
       <div class="card">
-        <img class="card-img-top" src="img/stray228.jpeg">
+        <img class="card-img" src="img/stray228.jpeg">
         <div class="card-body">
           <h4 class="card-title" style="color: red;">Stray228</h4>
           <p class="card-text">Как 9к стример скажу, что это лучший помощник! Определенно порекомендую своим крысятам.</p>
@@ -183,7 +176,7 @@
     </div>
     <div class="col-lg-4">
       <div class="card">
-        <img class="card-img-top" src="img/ybicanoooobov.jpeg">
+        <img class="card-img" src="img/ybicanoooobov.jpeg">
         <div class="card-body">
           <h4 class="card-title" style="color: blue;">ybicanoooobov</h4>
           <p class="card-text">Классный помощник, даже на 200 рангах помогает! Советую.</p>
@@ -215,29 +208,6 @@
       <img src="img/zeus.png" class="img-fluid"> 
     </div>
   </div>
-
-  <!-- REGISTER -->
-
-  <div id="window">
-  <div class="close">
-    <i class="far fa-window-close"></i>
-  </div>
-  <div class="form">
-    <h2>Регистрация</h2>
-    <form action="index.html" name="f1">
-      <img src="img/pudge.png" width="150px">
-      <input type="text" required placeholder="Никнейм" name="name2" class="input">
-      <input type="email" required placeholder="Почта" name="email1" class="input">
-      <input type="password" required placeholder="Пароль" name="pass1" class="input pass1">
-      <input type="password" required placeholder="Подтвердите пароль" name="pass2" class="input pass2">
-      <input type="submit" value="Регистрация" name="sab" class="input" onclick="alert('Вы успешно зарегестрировались!')">
-      <a href="login.html" style="text-decoration: none;">
-        <p>Уже зарегестрированы?</p>
-      </a>
-    </form>
-  </div>
-  </div>
-
 
 </div>
 

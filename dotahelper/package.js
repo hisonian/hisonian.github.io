@@ -27,25 +27,13 @@ function topFunction() {
   document.documentElement.scrollTop = 0;
 }
 
-// register
+// alert
 
- let register = document.getElementById('window');
- let button = document.querySelector('.regButton');
- let divClose = document.querySelector('.close');
+function alertReg() {
+  alert("Dota.help: Теперь можете авторизоваться! ");
+}
 
- let darkLayer = document.createElement('div');
- darkLayer.id = 'shadow'; 
+function alertLog() {
+  alert('Dota.help: Далее в разработке... Возвращаю на главную.')
+}
 
- function show() {
-  document.body.append(darkLayer);
-  register.style.opacity = 1;
- }
-
- function close() {
-  darkLayer.parentNode.removeChild(darkLayer);
-  register.style.opacity = 0;
- }
-
- button.onclick = show;
- divClose.onclick = close;
- darkLayer.onclick = close;

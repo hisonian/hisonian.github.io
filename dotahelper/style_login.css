@@ -52,28 +52,16 @@ input:focus {
   color: #3C7DE7;
 }
 
-button {
-  float: right;
-  height: 121px;
-  width: 50px;
-  border: 0px;
-  background: #3C7DE7;
-  border-radius:7px;
-  padding: 10px;
-  color:white;
-  font-size:22px;
-}
-
 .inputUserIcon {
   position:absolute;
-  top:68px;
+  top: 68px;
   right: 80px;
   color:white;
 }
 
 .inputPassIcon {
   position:absolute;
-  top:136px;
+  top: 136px;
   right: 80px;
   color:white;
 }
